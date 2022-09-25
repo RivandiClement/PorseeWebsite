@@ -1,0 +1,352 @@
+.topnav{
+  overflow: hidden;
+  background-color: #F5F1FF;
+  /* box-shadow: 3px 3px 11px 3px rgb(0 0 0 / 20%); */
+}
+
+.a{
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: #422E7D;
+  font-family: 'Work_Sans';
+  box-sizing: border-box;
+  padding: 50px 50px 50px 50px;
+  margin-right: 50px;
+}
+
+.a:hover{
+  color: #422E7D;
+}
+
+@font-face {
+  font-family: 'Work_Sans';
+  src: url('../public/Work_Sans/WorkSans-VariableFont_wght.ttf');
+  }
+.logo{
+  padding-left: 60px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  float: left;
+}
+
+.firstbox{
+  background-color: #422E7D;
+  height: 440px;
+  font-family: Work_Sans;
+}
+
+.firstbox .left{
+  width: 55%;
+  float: left;
+}
+
+.firstbox .left p{
+  color: white;
+  font-size: 48px;
+  margin: 0;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+.firstbox .right{
+  width: 45%;
+  height: 200px;
+  float: right;
+  margin-bottom: 2%;
+}
+
+.firstbox .right p{
+  color: white;
+  margin: 0;
+  padding-top: 10%;
+  font-size: 16px;
+}
+
+.firstbox .right button{
+  border: none;
+  color: #422E7D;
+  padding: 24px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 30px;
+  cursor: pointer;
+  border-radius: 32px;
+  font-family: Work_Sans;
+}
+
+.firstbox .image1{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.firstbox .image1 #kitchen{
+  border-radius: 20px;
+}
+
+.secondbox{
+  background-color: #F5F1FF;
+  width: 100%;
+  height: 240px;
+  font-family: Work_Sans;
+}
+
+.thirdbox{
+  background-color: #422E7D;
+  width: 100%;
+  height: 320px;
+  font-family: Work_Sans;
+}
+
+.thirdbox p{
+  color: white;
+  font-size: 40px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+  padding-top: 5%;
+  margin: 0;
+}
+
+.thirdbox .thirdboxButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thirdbox .thirdboxButton button{
+  border: none;
+  color: #422E7D;
+  padding: 24px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 2%;
+  cursor: pointer;
+  border-radius: 32px;
+  font-family: Work_Sans;
+}
+
+.fourthbox{
+  background-color: #F5F1FF;
+  width: 100%;
+  height: 840px;
+  font-family: Work_Sans;
+}
+
+.fourthbox #firstStnc{
+  color: #422E7D;
+  font-size: 48px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+  padding-top: 5%;
+  margin: 0;
+}
+
+.fourthbox #secondStnc{
+  color: #422E7D;
+  font-size: 16px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+  padding-top: 2%;
+  margin: 0;
+}
+
+.fourthbox .TopCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+}
+
+.fourthbox .BottomCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourthbox .TopCard #topLeftCard{
+  background-color: white;
+  width: 560px;
+  height: 240px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 25px;
+}
+
+.fourthbox .TopCard #topRightCard{
+  background-color: white;
+  width: 560px;
+  height: 240px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 25px;
+}
+
+.fourthbox .BottomCard #bottomLeftCard{
+  background-color: white;
+  width: 560px;
+  height: 240px;
+  border-radius: 10px;
+  margin: 25px;
+}
+
+.fourthbox .BottomCard #bottomRightCard{
+  background-color: white;
+  width: 560px;
+  height: 240px;
+  border-radius: 10px;
+  margin: 25px;
+}
+
+.fourthbox .TopCard #topLeftCard #topLeftImg{
+  width: 40%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+
+.fourthbox .TopCard #topLeftCard #topLeftPar{
+  width: 60%;
+  height: 100%;
+  float: right;
+  margin: 0;
+}
+
+.fourthbox .TopCard #topLeftCard #topLeftPar1{
+  margin: 0;
+  font-size: 20px;
+  font-family: Work_Sans;
+  font-weight: bolder;
+  color: #422E7D;
+  padding-top: 22.5%;
+}
+
+.fourthbox .TopCard #topLeftCard #topLeftPar2{
+  margin: 0;
+  font-size: 15px;
+  font-family: Work_Sans;
+  font-weight: lighter;
+  color: #422E7D;
+  padding-top: 5%;
+}
+
+.fourthbox .TopCard #topRightCard #topRightImg{
+  width: 40%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+
+.fourthbox .TopCard #topRightCard #topRightPar{
+  width: 60%;
+  height: 100%;
+  float: right;
+  margin: 0;
+}
+
+.fourthbox .TopCard #topRightCard #topRightPar1{
+  margin: 0;
+  font-size: 20px;
+  font-family: Work_Sans;
+  font-weight: bolder;
+  color: #422E7D;
+  padding-top: 22.5%;
+}
+
+.fourthbox .TopCard #topRightCard #topRightPar2{
+  margin: 0;
+  font-size: 15px;
+  font-family: Work_Sans;
+  font-weight: lighter;
+  color: #422E7D;
+  padding-top: 5%;
+}
+
+.fourthbox .BottomCard #bottomLeftCard #bottomLeftImg{
+  width: 40%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+
+.fourthbox .BottomCard #bottomLeftCard #bottomLeftPar{
+  width: 60%;
+  height: 100%;
+  float: right;
+  margin: 0;
+}
+
+.fourthbox .BottomCard #bottomLeftCard #bottomLeftPar1{
+  margin: 0;
+  font-size: 20px;
+  font-family: Work_Sans;
+  font-weight: bolder;
+  color: #422E7D;
+  padding-top: 22.5%;
+}
+
+.fourthbox .BottomCard #bottomLeftCard #bottomLeftPar2{
+  margin: 0;
+  font-size: 15px;
+  font-family: Work_Sans;
+  font-weight: lighter;
+  color: #422E7D;
+  padding-top: 5%;
+}
+
+.fourthbox .BottomCard #bottomRightCard #bottomRightImg{
+  width: 40%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+
+.fourthbox .BottomCard #bottomRightCard #bottomRightPar{
+  width: 60%;
+  height: 100%;
+  float: right;
+  margin: 0;
+}
+
+.fourthbox .BottomCard #bottomRightCard #bottomRightPar1{
+  margin: 0;
+  font-size: 20px;
+  font-family: Work_Sans;
+  font-weight: bolder;
+  color: #422E7D;
+  padding-top: 22.5%;
+}
+
+.fourthbox .BottomCard #bottomRightCard #bottomRightPar2{
+  margin: 0;
+  font-size: 15px;
+  font-family: Work_Sans;
+  font-weight: lighter;
+  color: #422E7D;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+
+.fifthbox{
+  background-color: #422E7D;
+  width: 100%;
+  height: 540px;
+  font-family: Work_Sans;
+}
+
+
