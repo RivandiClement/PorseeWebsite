@@ -17,7 +17,7 @@ export default function Home() {
         </div>
         <div className={styles.right}>
           <p>We prepared your foodstuffs and portion it, so you can cook <br></br>without worry</p>
-          <button type="button" color="secondary">Get Started</button>
+          <button type="button">Get Started</button>
         </div>
         <div className={styles.image1}>
           <Image id={styles.kitchen} src="/kitchen.jpg" width={1200} height={400}></Image>
@@ -29,7 +29,7 @@ export default function Home() {
       <section className={styles.thirdbox}>
         <p>We are delivering freshest groceries everyday, ready for you to cook wherever you are!</p>
         <div className={styles.thirdboxButton}>
-          <button type="button" color="secondary">Read More</button>
+          <button type="button">Read More</button>
         </div>
       </section>
       <div className={styles.fourthbox}>
