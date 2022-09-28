@@ -11,7 +11,7 @@ export default function Header() {
                 <Link href="#kitchen"><a className={styles.a}>Contact Us</a></Link>
                 <Link href="/Service"><a className={styles.a}>Service</a></Link>
                 <Link href="/"><a className={styles.a}>About</a></Link>
-                <Link href="/"><a className={styles.a}><b>Home</b></a></Link>
+                <Link href="/"><a className={styles.a}>Home</a></Link>
         </header>
     );
 }
