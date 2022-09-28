@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Head>
         <title>Porsee</title>
-        <link rel="icon" href="/images/porsee.svg" alt="icon"/>
+        <link rel="icon" href="/images/porsee.ico" type="image/x-icon" alt="icon"/>
       </Head>
       <Header></Header>
       <div className={styles.firstbox}>
