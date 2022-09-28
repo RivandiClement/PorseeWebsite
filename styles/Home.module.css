@@ -79,9 +79,8 @@
 }
 
 .firstbox .image1{
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+  text-align: center;
+  display: block;
 }
 
 .firstbox .image1 #kitchen{
