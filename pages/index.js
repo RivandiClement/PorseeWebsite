@@ -78,7 +78,14 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.fifthbox}>
-
+        <div className={styles.mainText}>
+          <p>Preparing and Portioning <br></br>to Ease Your Life</p>
+        </div>
+        {/* <ul>
+          <li>
+            <p>whatsapp</p>
+          </li>
+        </ul> */}
       </div>
     </>
   );
