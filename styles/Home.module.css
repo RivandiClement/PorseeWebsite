@@ -4,7 +4,7 @@
   /* box-shadow: 3px 3px 11px 3px rgb(0 0 0 / 20%); */
 }
 
-.a{
+.menu{
   float: right;
   text-align: center;
   text-decoration: none;
@@ -12,12 +12,12 @@
   color: #422E7D;
   font-family: 'Work_Sans';
   box-sizing: border-box;
-  padding: 50px 50px 50px 50px;
-  margin-right: 50px;
+  margin: 50px 75px 50px 50px;
 }
 
-.a:hover{
-  color: #422E7D;
+.menu:hover{
+  font-weight: bolder;
+  cursor: pointer;
 }
 
 @font-face {
@@ -25,10 +25,10 @@
   src: url('../public/Work_Sans/WorkSans-VariableFont_wght.ttf');
   }
 .logo{
-  padding-left: 60px;
-  padding-top: 28px;
-  padding-bottom: 28px;
   float: left;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  margin-left: 2.5%;
 }
 
 .firstbox{
@@ -76,6 +76,7 @@
   cursor: pointer;
   border-radius: 32px;
   font-family: Work_Sans;
+  background-color: #F5F1FF;
 }
 
 .firstbox .image1{
@@ -128,6 +129,7 @@
   cursor: pointer;
   border-radius: 32px;
   font-family: Work_Sans;
+  background-color: #F5F1FF;
 }
 
 .fourthbox{
