@@ -11,27 +11,27 @@ export default function Home() {
         <link rel="icon" href="porseeIcon.svg" alt="icon"/>
       </Head>
       <Header></Header>
-      <div className={styles.firstbox}>
-        <div className={styles.left}>
-          <p>Preparing and Portioning <br></br>to Ease Your Life</p>
+      <div className="bg-purple-porsee w-full lg:h-[440px] md:h-[330px] sm:h-[220px] xs:h-[175px] text-white">
+        <div className="lg:w-7/12 md:w-7/12 sm:w-7/12 xs:w-5/12 float-left">
+          <p className="lg:mt-20 md:mt-10 sm:mt-5 xs:mt-5 lg:ml-28 md:ml-14 sm:ml-7 xs:ml-7 lg:text-5xl md:text-3xl">Preparing and Portioning <br></br>to Ease Your Life</p>
         </div>
-        <div className={styles.right}>
-          <p>We prepared your foodstuffs and portion it, so you can cook <br></br>without worry</p>
-          <button type="button">Get Started</button>
+        <div className="lg:w-5/12 md:w-5/12 sm:w-5/12 xs:w-7/12 float-right h-[200px] lg:mb-12 md:mb-0 sm:-mb-12 xs:-mb-16">
+          <p className="lg:text-base md:text-sm xs:text-xs lg:mt-16 md:mt-8 sm:mt-4 xs:mt-4 lg:w-10/12">We prepared your foodstuffs and portion it, so you can cook without worry</p>
+          <button className="border-none bg-cream-porsee text-purple-porsee lg:text-lg md:text-base sm:text-sm xs:text-xs lg:py-6 md:py-5 sm:py-4 xs:py-3 lg:px-10 md:px-9 sm:px-8 xs:px-7 lg:mt-7 md:mt-6 sm:mt-5 xs:mt-4 lg:ml-0 md:ml-0 xs:ml-10 text-center inline-block rounded-[32px] cursor-pointer" type="button">Get Started</button>
         </div>
-        <div className={styles.image1}>
-          <Image id={styles.kitchen} src="/kitchen.jpg" width={1200} height={400}></Image>
+        <div className="">
+          <img className="rounded-[1.25rem] lg:w-10/12 md:w-10/12 sm:w-10/12 xs:w-10/12 lg:ml-auto lg:mr-auto md:ml-auto md:mr-auto sm:ml-auto sm:mr-auto xs:ml-auto xs:mr-auto" src="/kitchen.jpg"></img>
         </div>
       </div>
-      <div className={styles.secondbox}>
+      <div className="bg-cream-porsee lg:h-[240px] md:h-[180px] sm:h-[160px] xs:h-[110px]">
 
       </div>
-      <section className={styles.thirdbox}>
-        <p>We are delivering freshest groceries everyday, ready for you to cook wherever you are!</p>
-        <div className={styles.thirdboxButton}>
-          <button type="button">Read More</button>
+      <div id='thirdbox' className="bg-purple-porsee lg:h-[320px] md:h-[220px] sm:h-[180px] xs:h-[140px]">
+        <p className="text-white lg:text-[40px] md:text-[24px] sm:text-[18px] xs:text-[16px] text-center lg:ml-16 lg:mr-16 md:ml-28 md:mr-28 sm:ml-20 sm:mr-20 xs:ml-6 xs:mr-6 lg:pt-10 md:pt-6 sm:pt-6 xs:pt-4">We are delivering freshest groceries everyday, ready for you to cook wherever you are!</p>
+        <div className="flex justify-center align-center">
+          <button className="border-none bg-cream-porsee text-purple-porsee lg:text-lg md:text-base sm:text-sm xs:text-xs lg:py-6 md:py-5 sm:py-4 xs:py-3 lg:px-10 md:px-9 sm:px-8 xs:px-7 lg:mt-7 md:mt-6 sm:mt-5 xs:mt-4 lg:ml-0 md:ml-0 xs:ml-10 text-center inline-block rounded-[32px] cursor-pointer" type="button">Read More</button>
         </div>
-      </section>
+      </div>
       <div className={styles.fourthbox}>
         <p id={styles.firstStnc}>Why are we better than other services?</p>
         <p id={styles.secondStnc}>We offer features and freedom for you to choose</p>
