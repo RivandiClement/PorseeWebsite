@@ -88,12 +88,12 @@
   border-radius: 20px;
 } */
 
-.secondbox{
+/* .secondbox{
   background-color: #F5F1FF;
   width: 100%;
   height: 240px;
   font-family: Work_Sans;
-}
+} */
 
 /* .thirdbox{
   background-color: #422E7D;
@@ -132,14 +132,14 @@
   background-color: #F5F1FF;
 } */
 
-.fourthbox{
+/* .fourthbox{
   background-color: #F5F1FF;
   width: 100%;
   height: 840px;
   font-family: Work_Sans;
-}
+} */
 
-.fourthbox #firstStnc{
+/* .fourthbox #firstStnc{
   color: #422E7D;
   font-size: 48px;
   padding-left: 15%;
@@ -147,9 +147,9 @@
   text-align: center;
   padding-top: 5%;
   margin: 0;
-}
+} */
 
-.fourthbox #secondStnc{
+/* .fourthbox #secondStnc{
   color: #422E7D;
   font-size: 16px;
   padding-left: 15%;
@@ -157,31 +157,31 @@
   text-align: center;
   padding-top: 2%;
   margin: 0;
-}
+} */
 
-.fourthbox .TopCard{
+/* .fourthbox .TopCard{
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 3%;
-}
+} */
 
-.fourthbox .BottomCard{
+/* .fourthbox .BottomCard{
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.fourthbox .TopCard #topLeftCard{
+/* .fourthbox .TopCard #topLeftCard{
   background-color: white;
   width: 560px;
   height: 240px;
   border-radius: 10px;
   display: inline-block;
   margin: 25px;
-}
+} */
 
-.fourthbox .TopCard #topRightCard{
+/* .fourthbox .TopCard #topRightCard{
   background-color: white;
   width: 560px;
   height: 240px;
@@ -204,18 +204,18 @@
   height: 240px;
   border-radius: 10px;
   margin: 25px;
-}
+} */
 
-.fourthbox .TopCard #topLeftCard #topLeftImg{
+/* .fourthbox .TopCard #topLeftCard #topLeftImg{
   width: 40%;
   height: 100%;
   margin: 0;
   display: flex;
   justify-content: center;
   float: left;
-}
+} */
 
-.fourthbox .TopCard #topLeftCard #topLeftPar{
+/* .fourthbox .TopCard #topLeftCard #topLeftPar{
   width: 60%;
   height: 100%;
   float: right;
@@ -341,26 +341,22 @@
   color: #422E7D;
   padding-top: 5%;
   padding-right: 5%;
-}
+} */
 
-.fifthbox{
+/* .fifthbox{
   background-color: #422E7D;
   width: 100%;
   height: 540px;
   font-family: Work_Sans;
-}
+} */
 
-.fifthbox .mainText p{
+/* .fifthbox .mainText p{
   color: white;
   font-size: 48px;
   margin: 0;
   padding-top: 5%;
   padding-left: 7.5%;
-}
+} */
 
-.fifthbox ul{
-  list-style: none;
-  color: white;
-}
 
 
