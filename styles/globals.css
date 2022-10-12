@@ -14,3 +14,8 @@ body {
   font-family: 'Work_Sans';
   src: url('../public/Work_Sans/WorkSans-VariableFont_wght.ttf');
 }
+
+@font-face {
+  font-family: 'Gayathri';
+  src: url('../public/Gayathri/Gayathri-Regular.ttf');
+}
