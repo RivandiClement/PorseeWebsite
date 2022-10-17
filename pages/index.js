@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <Header></Header>
       <div className="pt-[92.5px]">
-        <div id="firstbox" className="bg-local bg-cream-porsee w-full lg:h-[680px] md:h-[510px] sm:h-[380px] xs:h-[285px] text-purple-porsee" style={{ backgroundImage: "url(/baru.jpg)", backgroundSize: '100% 125%'}}>
+        <div id="firstbox" className="bg-cover bg-cream-porsee w-full lg:h-[680px] md:h-[510px] sm:h-[380px] xs:h-[285px] text-purple-porsee" style={{ backgroundImage: "url(/baru.jpg)"}}>
           <div className="lg:pt-[5%] xs:pt-[15%] h-full flex flex-col justify-center items-center">
             <p className="tracking-widest leading-loose text-center text-purple-porsee font-black lg:text-5xl md:text-3xl sm:text-2xl font-['Gayathri']">Preparing and Portioning <br></br>to Ease Your Life</p>
             <div className="lg:w-5/12 md:w-5/12 sm:w-5/12 xs:w-7/12 ml-[10%]">
